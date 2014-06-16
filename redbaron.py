@@ -820,5 +820,5 @@ if __name__ == '__main__':
     red = RedBaron(open(sys.argv[1]).read())
 
     shell = InteractiveShellEmbed()
-    shell.push("a,RedBaron,red", interactive=True)
+    #shell.push("red", interactive=True)
     shell()
